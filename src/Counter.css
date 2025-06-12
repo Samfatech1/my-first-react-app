@@ -1,0 +1,36 @@
+.counter-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.count-display {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.limit-msg {
+  color: red;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-group button {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
